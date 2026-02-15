@@ -1,0 +1,12 @@
+# Build artifacts
+/dist/
+*.xpi
+
+# Local backups
+/backup/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

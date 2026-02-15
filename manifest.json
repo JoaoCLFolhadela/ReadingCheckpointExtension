@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "Reading Checkpoint",
+  "version": "1.0.0",
+  "description": "Mark sections of a page as read with persistent checkmarks.",
+  "icons": {
+    "48": "assets/icon-48.png",
+    "96": "assets/icon-96.png"
+  },
+  "permissions": ["storage", "menus", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_title": "Reading Checkpoint",
+    "default_icon": {
+      "48": "assets/icon-48.png",
+      "96": "assets/icon-96.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "reading-checkpoint@example.local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
