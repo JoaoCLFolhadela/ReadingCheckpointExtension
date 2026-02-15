@@ -25,4 +25,4 @@ Reading Checkpoint does not collect, transmit, sell, or share personal data.
 
 ## Contact
 
-If you publish this add-on publicly, replace this section with your support contact details.
+Open an issue.
