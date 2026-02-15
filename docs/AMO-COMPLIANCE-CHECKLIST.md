@@ -37,17 +37,6 @@ Reference:
 - Undo/redo and clear actions are provided.
 - Functionality and permissions are documented in `README.md`.
 
-## Packaging and submission steps
-
-1. Build package: `./scripts/build-xpi.sh`
-2. Result file: `dist/reading-checkpoint-<version>.xpi`
-3. Submit at AMO developer hub:
-   - https://addons.mozilla.org/developers/
-4. In AMO listing/disclosures, explicitly state:
-   - Uses local storage only
-   - Does not transmit data
-   - Requires broad site access to function on arbitrary reading pages
-
 ## Manual pre-submit verification
 
 - Load package in Firefox and test:
