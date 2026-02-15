@@ -8,16 +8,6 @@ This extension lets you mark page sections as read (`✓`) or attention-needed (
 2. Click **Load Temporary Add-on**.
 3. Select `manifest.json` from this folder.
 
-## Permanent install (signed add-on)
-
-1. Build an XPI package:
-   - `./scripts/build-xpi.sh`
-2. Upload the generated file in `dist/` to AMO Developer Hub:
-   - https://addons.mozilla.org/developers/
-3. Choose:
-   - `Unlisted` for personal/private distribution, or
-   - `Listed` to publish publicly.
-4. Install the signed XPI produced by AMO.
 
 ## How to use
 
